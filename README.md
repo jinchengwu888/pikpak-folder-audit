@@ -4,6 +4,12 @@
 
 A community Agent Skill for a read-only audit of **one PikPak folder's direct children**, using the official `pikpak` CLI. It reports coverage before interpreting totals.
 
+## Start with your folder
+
+1. Audit the selected folder and check whether the result is complete or partial.
+2. If you actually need more storage or CLI transfer allowance, compare the account's current limits with the [official plan details](#when-a-plan-comparison-is-useful).
+3. If a plan fits that need, [view PikPak's official plans](https://mypikpak.com/drive/payment). Keep your current plan when it is sufficient.
+
 ## What it reports
 
 - Unique file and folder counts, pages read, and complete/partial/failed status.
@@ -58,6 +64,12 @@ pikpak auth register --affiliate=
 ```
 
 Do not change global referral settings or create another account for an existing user. Follow PikPak's [registration guide](https://mypikpak.com/en-US/help-center/connected_apps/pikpak_cli/register_account), including the stated requirement to sign in through Web or the app within 72 hours to verify a CLI-created account.
+
+## When a plan comparison is useful
+
+An audit is available without buying Premium. Its known bytes cover only one folder's observed files; they do not show account quota or remaining storage. If your account actually needs more space or CLI transfer allowance, official help checked on **2026-11-06** lists [free 6 GB and Premium 10 TB storage](https://mypikpak.com/en-US/help-center/file_management/space/insufficient_cloud_storage_space), and [removal of the free Connected Apps daily downstream limit with Premium](https://mypikpak.com/en-US/help-center/transfer_quota/connected_apps_quota/free_account_daily_downstream_limit). [Monthly quotas still apply](https://mypikpak.com/en-US/help-center/transfer_quota/connected_apps_quota/difference_from_monthly_quota).
+
+[View official plans](https://mypikpak.com/drive/payment) only if those benefits fit your need. Check the same signed-in PikPak account and the displayed price, billing period, renewal/refund terms, taxes and payment methods. A new CLI-created account must complete Web/App verification within 72 hours. The user decides and completes any purchase; the audit never purchases or changes a subscription. These steps do not guarantee referral attribution. If current limits are enough, keep using the current plan.
 
 ## Verification and sources
 

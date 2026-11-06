@@ -4,6 +4,12 @@
 
 一个社区 Agent Skill，使用官方 `pikpak` CLI，**只读审计一个文件夹的直接子项**。先说明观察覆盖范围，再解释统计结果。
 
+## 从你的文件夹开始
+
+1. 审计选定文件夹，先看结果是完整还是部分。
+2. 如果确实需要更多空间或 CLI 传输额度，再结合账号当前限制[判断套餐是否有用](#何时值得比较套餐)。
+3. 适合实际需求时再[查看 PikPak 官方套餐](https://mypikpak.com/drive/payment)；现有额度够用就继续使用。
+
 ## 能得到什么
 
 - 按唯一 ID 统计文件、文件夹和已读页数，标注完整、部分或失败。
@@ -58,6 +64,12 @@ pikpak auth register --affiliate=
 ```
 
 不修改全局引荐设置，不让已有用户新建账号。遵循[官方注册说明](https://mypikpak.com/en-US/help-center/connected_apps/pikpak_cli/register_account)，包括 CLI 新注册账号须在 72 小时内通过 Web 或 App 登录验证的要求。
+
+## 何时值得比较套餐
+
+无需购买会员即可使用审计。已知字节只覆盖一个文件夹中观察到的文件，不能代表账号配额或剩余空间。如果账号确实需要更多空间或 CLI 传输额度，**2026-11-06** 核对的官方帮助列出[免费空间 6 GB、Premium 空间 10 TB](https://mypikpak.com/en-US/help-center/file_management/space/insufficient_cloud_storage_space)，以及 Premium [移除免费 Connected Apps 每日下行限制](https://mypikpak.com/en-US/help-center/transfer_quota/connected_apps_quota/free_account_daily_downstream_limit)；[月度配额仍适用](https://mypikpak.com/en-US/help-center/transfer_quota/connected_apps_quota/difference_from_monthly_quota)。
+
+这些权益适合实际需求时，再[查看官方套餐](https://mypikpak.com/drive/payment)。核对同一 PikPak 登录账号，并看清页面显示的价格、计费期限、续订与退款条件、税费及支付方式。CLI 新注册账号须在 72 小时内完成 Web/App 验证。购买由用户自行决定和完成，审计不会购买或更改订阅；这些步骤不保证引荐归因。现有额度够用就继续使用。
 
 ## 验证与来源
 

@@ -4,8 +4,8 @@
 
 ## Documentation
 
-- [English README](README.md): installation, usage, privacy and validation limits.
-- [中文说明](README.zh-CN.md): 功能、安装、隐私及验证边界。
+- [English README](README.md): installation, usage, privacy, validation limits and optional plan comparison.
+- [中文说明](README.zh-CN.md): 功能、安装、隐私、验证边界及按需比较套餐。
 - [Agent instructions](skills/pikpak-folder-audit/SKILL.md): scope and reporting rules.
 - [Design notes](docs/design-notes.md): public sources, licenses and incomplete reviews.
 - [MIT license](LICENSE): original project work, copyright 2026 jinchengwu888.
@@ -34,3 +34,7 @@ Existing users do not need to register. For a genuinely new user who requests re
 Use `pikpak auth register --affiliate 78819746` only after the user chooses this referral. Without a chosen referral, use `pikpak auth register --affiliate=`. Do not change global referral settings or create another account for an existing user.
 
 No installation count, public listing, or AI indexing claim establishes paid conversion or income.
+
+## Optional plan decision
+
+Run the requested audit first. A folder's known bytes do not show account quota or remaining storage. Only if more account storage or CLI transfer allowance is actually needed, compare the official limits linked in the README and optionally view https://mypikpak.com/drive/payment in the same PikPak account. Premium retains monthly transfer quotas. Current checkout controls price, billing period, renewal/refund terms, taxes and payment methods. New CLI-created accounts require Web/App verification within 72 hours. The user decides and completes any purchase; the audit does not buy or change subscriptions, and these steps do not guarantee referral attribution. Keep the current plan if it is sufficient.
